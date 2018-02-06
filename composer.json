@@ -1,0 +1,33 @@
+{
+    "name": "bantenprov/rks-jenjang-pendidikan-menengah",
+    "description": "Rasio Guru-Murid (RGM) Jenjang Pendidikan Menengah Menurut Kabupaten/Kota",
+    "type": "library",
+    "homepage": "https://github.com/bantenprov/rks-jenjang-pendidikan-menengah",
+    "authors": [
+        {
+        "name": "bantenprov",
+        "email": "developer.bantenprov@gmail.com",
+        "role": "developer"
+    }
+    ],
+    "license": "MIT",
+    "support": {
+      "source": "https://github.com/bantenprov/rks-jenjang-pendidikan-menengah,",
+      "issues": "https://github.com/bantenprov/rks-jenjang-pendidikan-menengah/issues",
+      "wiki": "https://github.com/bantenprov/rks-jenjang-pendidikan-menengah/wiki"
+    },
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/framework": "5.4.*",
+        "laravel/tinker": "~1.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers/helpers.php"
+        ],
+        "psr-4": {
+            "Bantenprov\\RKSJenPenMgh\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
